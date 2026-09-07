@@ -24,6 +24,7 @@ The application contains both syntax errors and logic errors.
 ```text
 lab3-saas-license-troubleshooting/
 ├── README.md
+├── changes.diff
 ├── evaluate_lab.sh
 ├── license_menu.sh
 ├── reset_lab.sh
@@ -32,6 +33,11 @@ lab3-saas-license-troubleshooting/
 │   └── licenses.csv
 ├── docs/
 │   └── expected-output.md
+|__ Eirik-Artifacts
+    |── Pore_Choice_variable_modification.png
+    |── Post_Choice_variable_modification.png
+    |── Pre_Choice_variable_modification.png
+    └── Post_Choice_variable_modification.png
 ├── reports/
 └── scripts/
     ├── add_license.py
