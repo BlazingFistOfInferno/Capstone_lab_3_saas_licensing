@@ -9,9 +9,17 @@ The goal stated was NOT to rearchitect the solution, just get it up and running.
 Change #1 - Pre and Post mkdir check
 ![alt text](Eirik-Artifacts/Pre_Directory_mkdir_check.png)
 
+I added the mkdir -p check to ensure both directories called but not provisioned were actually
+present to stop an error that hits without them being created.
+
 ![alt text](Eirik-Artifacts/Post_Directory_mkdir_check.png)
 
-Made a change to allow the menu choice option to open, selection is not a valid variable.
+For all the scripts being callibg python by using python3, that does not work in windows. <br />
+I used py as a shortcut for python which does work on windows. the commasnd using python3 is for<br />
+those who have macs.
+
+Made a change to allow the menu choice option to actually be read and stored in the $choice, as selection<br />
+is not a valid variable.
 
 Change #2 - license_menu.sh makmenu option work successfully
 
