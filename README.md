@@ -70,9 +70,9 @@ Run the menu:
 You can also test each Python script directly:
 
 ```bash
-python3 scripts/license_audit.py
-python3 scripts/owner_summary.py
-python3 scripts/add_license.py
+python scripts/license_audit.py
+python scripts/owner_summary.py
+python scripts/add_license.py
 ```
 
 ---
@@ -197,9 +197,9 @@ bash -n license_menu.sh
 2. Check Python syntax:
 
 ```bash
-python3 -m py_compile scripts/license_audit.py
-python3 -m py_compile scripts/owner_summary.py
-python3 -m py_compile scripts/add_license.py
+python -m py_compile scripts/license_audit.py
+python -m py_compile scripts/owner_summary.py
+python -m py_compile scripts/add_license.py
 ```
 
 3. Run the Python files directly.
@@ -265,3 +265,6 @@ Use `rm -rf` carefully.
 4. Why should automation tools skip bad records instead of crashing?
 5. Why is it useful to test Python files directly before testing the Bash menu?
 6. Why should the evaluator restore the original data after testing?
+
+
+** Note, reflection questions are answered in the Debugging.md.
